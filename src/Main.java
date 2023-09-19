@@ -52,11 +52,34 @@ public class Main {
         System.out.println(gatito.moverse());
         System.out.println(delfi.moverse());
 
-         */
+
 
         List<String> nombres = new ArrayList<String>();
 
         Animal animal = new Aguila();
         System.out.println(animal.moverse());
+
+
+        System.out.println("Cantidad de gatos actual: " + Gato.cantGatos);
+
+        Gato gato1 = new Gato();
+
+        System.out.println("Cantidad de gatos actual: " + gato1.getCantGatos());
+
+        Gato gato2 = new Gato();
+
+        System.out.println("Cantidad de gatos actual: " + gato2.getCantGatos());
+
+         */
+        int numero1 =10;
+        int numero2 = 20;
+
+        System.out.println("El resultado de sumar " + numero1 + " + " +  numero2 + " es: " + Calculadora.suma(numero1,numero2));
+        //puedo ejecutar metodos static porque estan en la clase, no necesito instanciarlos
+        Integer.parseInt("12");
+
+
+
     }
+
 }
